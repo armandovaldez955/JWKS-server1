@@ -1,5 +1,5 @@
 # JWKS-server1 project summary
-Make sure to haveflask install, use this in the terminal:
+Make sure to have flask installed in the terminal, use this in the windows terminal:
 pip install flask pyjwt cryptography <br />
 <br />
 This project has been made with the help of AI. I used ChatGPT to create the server and then debug issues with the results. I also used to make the test suite and coverage. For the creation of the server, I used this as the prompt: <br />
