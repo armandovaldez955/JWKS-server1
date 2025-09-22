@@ -14,7 +14,7 @@ Only serve keys that have not expired.
 A /auth endpoint that returns an unexpired, signed JWT on a POST request.
 If the “expired” query parameter is present, issue a JWT signed with the expired key pair and the expired expiry. <br />
 <br />
-After creating I ask to explain parts where I did not understand well. I later on finish debugging since by using the result from the prompt, it gave 31 points in the gradebot, it failedon finding a valid JWKS, and it did not found a expired JWK in JWKS. After debugging, I asked again to create a test suite code using this prompt:
+After creating I ask to explain parts where I did not understand well. I later on finish debugging since by using the result from the prompt, it gave 31 points in the gradebot, it failed on finding a valid JWKS, and it did not found a expired JWK in JWKS. After debugging, I asked again to create a test suite code using this prompt:
 I need a test suite for this code: main.py. It provided a file, but when I ran it, it failed to run on the terminal. I fixed it by using this command : <br />
 python -m pytest --cov=main --cov-report=term-missing <br />
 After that it worked fine and was able to complete the project.
